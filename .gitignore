@@ -1,3 +1,6 @@
+typings
+dist-esm
+
 # Logs
 *.log
 npm-debug.log*
