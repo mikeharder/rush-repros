@@ -66,24 +66,24 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
-  /typescript/3.7.2:
+  /typescript/3.6.4:
     dev: false
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+      integrity: sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
   'file:projects/project1.tgz':
     dependencies:
       '@types/chai': 4.2.5
       '@types/node': 12.12.7
       chai: 4.2.0
       chai-exclude: 2.0.2_chai@4.2.0
-      typescript: 3.7.2
+      typescript: 3.6.4
     dev: false
     name: '@rush-temp/project1'
     resolution:
-      integrity: sha512-M70dyZlNgA+i++hj01tYwKOwkcna9HRtUPkMbT05IbVjopm1b+VRgBPbN4KDCZAA7nqPJvwtPpDraOjqidzSyQ==
+      integrity: sha512-tc1V9O1FFLIrWn/ikL2+w7efEfpCHlmkhjMTu67efkCKHmoYJOHh7S43Pf3Dc2yswiWiuy3KbsRfPM4jmQIgbg==
       tarball: 'file:projects/project1.tgz'
     version: 0.0.0
 specifiers:
