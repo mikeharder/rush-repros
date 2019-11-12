@@ -1,13 +1,100 @@
 dependencies:
   '@rush-temp/project1': 'file:projects/project1.tgz'
+  '@types/chai': 4.2.5
+  '@types/node': 12.12.7
+  chai: 4.2.0
+  chai-exclude: 2.0.2_chai@4.2.0
+  typescript: 3.7.2
 lockfileVersion: 5.1
 packages:
+  /@types/chai/4.2.5:
+    dev: false
+    resolution:
+      integrity: sha512-YvbLiIc0DbbhiANrfVObdkLEHJksQZVq0Uvfg550SRAKVYaEJy+V70j65BVe2WNp6E3HtKsUczeijHFCjba3og==
+  /@types/node/12.12.7:
+    dev: false
+    resolution:
+      integrity: sha512-E6Zn0rffhgd130zbCbAr/JdXfXkoOUFAKNs/rF8qnafSJ8KYaA/j3oz7dcwal+lYjLA7xvdd5J4wdYpCTlP8+w==
+  /assertion-error/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==
+  /chai-exclude/2.0.2_chai@4.2.0:
+    dependencies:
+      chai: 4.2.0
+      fclone: 1.0.11
+    dev: false
+    peerDependencies:
+      chai: '>= 4.0.0 < 5'
+    resolution:
+      integrity: sha512-QmNVnvdSw8Huccdjm49mKu3HtoHxvjdavgYkY0KPQ5MI5UWfbc9sX1YqRgaMPf2GGtDXPoF2ram3AeNS4945Xw==
+  /chai/4.2.0:
+    dependencies:
+      assertion-error: 1.1.0
+      check-error: 1.0.2
+      deep-eql: 3.0.1
+      get-func-name: 2.0.0
+      pathval: 1.1.0
+      type-detect: 4.0.8
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-XQU3bhBukrOsQCuwZndwGcCVQHyZi53fQ6Ys1Fym7E4olpIqqZZhhoFJoaKVvV17lWQoXYwgWN2nF5crA8J2jw==
+  /check-error/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
+  /deep-eql/3.0.1:
+    dependencies:
+      type-detect: 4.0.8
+    dev: false
+    engines:
+      node: '>=0.12'
+    resolution:
+      integrity: sha512-+QeIQyN5ZuO+3Uk5DYh6/1eKO0m0YmJFGNmFHGACpf1ClL1nmlV/p4gNgbl2pJGxgXb4faqo6UE+M5ACEMyVcw==
+  /fclone/1.0.11:
+    dev: false
+    resolution:
+      integrity: sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
+  /get-func-name/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=
+  /pathval/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-uULm1L3mUwBe9rcTYd74cn0GReA=
+  /type-detect/4.0.8:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
+  /typescript/3.7.2:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
   'file:projects/project1.tgz':
+    dependencies:
+      '@types/chai': 4.2.5
+      '@types/node': 12.12.7
+      chai: 4.2.0
+      chai-exclude: 2.0.2_chai@4.2.0
+      typescript: 3.7.2
     dev: false
     name: '@rush-temp/project1'
     resolution:
-      integrity: sha512-hfEaXe+xXEkpM11X6OmA7AD+GirF/Ls5TUupI/fJNBVFAD0pNTkHAAgTKNJhhwsw1+lQyKW/NLzKxyCIP2CByw==
+      integrity: sha512-M70dyZlNgA+i++hj01tYwKOwkcna9HRtUPkMbT05IbVjopm1b+VRgBPbN4KDCZAA7nqPJvwtPpDraOjqidzSyQ==
       tarball: 'file:projects/project1.tgz'
     version: 0.0.0
 specifiers:
   '@rush-temp/project1': 'file:./projects/project1.tgz'
+  '@types/chai': ^4.2.5
+  '@types/node': ^12.12.7
+  chai: ^4.2.0
+  chai-exclude: ^2.0.2
+  typescript: ^3.7.2
